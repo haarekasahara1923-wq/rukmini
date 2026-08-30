@@ -3,15 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 14px 5%;
-  background: rgba(245, 247, 255, 0.94);
+  background: rgba(242, 248, 244, 0.96);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 1px 0 rgba(26,58,143,0.10), 0 4px 20px rgba(26,58,143,0.08);
+  box-shadow: 0 1px 0 rgba(26,71,49,0.10), 0 4px 20px rgba(26,71,49,0.08);
   position: sticky;
   top: 0;
   z-index: 200;
   transition: all 0.3s ease;
-  border-bottom: 1px solid rgba(26,58,143,0.12);
+  border-bottom: 2px solid rgba(201,168,76,0.35);
 }
 
 .logoContainer {
@@ -27,15 +27,15 @@
   height: 54px;
   border-radius: 50%;
   padding: 2px;
-  background: linear-gradient(135deg, #1a3a8f, #4a90d9);
-  box-shadow: 0 4px 14px rgba(26,58,143,0.30);
+  background: linear-gradient(135deg, #1A4731, #C9A84C);
+  box-shadow: 0 4px 14px rgba(26,71,49,0.30);
   flex-shrink: 0;
   overflow: hidden;
 }
 
 .schoolName {
   font-family: var(--font-heading);
-  color: var(--secondary);
+  color: var(--primary);
   font-weight: 800;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -71,12 +71,12 @@
 
 .navLink:hover {
   color: var(--primary);
-  background: rgba(26,58,143,0.08);
+  background: rgba(26,71,49,0.08);
 }
 
 .active {
   color: var(--primary);
-  background: rgba(26,58,143,0.10);
+  background: rgba(26,71,49,0.10);
   font-weight: 600;
 }
 
@@ -84,7 +84,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #1a3a8f, #0f2460);
+  background: linear-gradient(135deg, #1A4731, #0D2B1D);
   color: var(--white);
   padding: 10px 22px;
   border-radius: 50px;
@@ -92,13 +92,13 @@
   font-weight: 600;
   font-size: 0.9rem;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 14px rgba(26,58,143,0.35);
+  box-shadow: 0 4px 14px rgba(26,71,49,0.35);
   letter-spacing: 0.2px;
 }
 
 .callButton:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(26,58,143,0.50);
+  box-shadow: 0 8px 24px rgba(26,71,49,0.50);
 }
 
 .headerRight {
@@ -112,7 +112,7 @@
   background: none;
   border: none;
   font-size: 1.8rem;
-  color: var(--secondary);
+  color: var(--primary);
   cursor: pointer;
   padding: 4px;
 }
@@ -129,11 +129,11 @@
     top: 100%;
     left: 0;
     right: 0;
-    background: rgba(245, 247, 255, 0.98);
+    background: rgba(242, 248, 244, 0.98);
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(26,58,143,0.12);
+    border-bottom: 2px solid rgba(201,168,76,0.35);
     padding: 20px 0;
-    box-shadow: 0 10px 20px rgba(26,58,143,0.08);
+    box-shadow: 0 10px 20px rgba(26,71,49,0.08);
   }
 
   .nav.navOpen {

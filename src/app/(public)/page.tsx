@@ -57,12 +57,12 @@ export default function Home() {
       {/* ===== HERO ===== */}
       <section 
         className={styles.hero} 
-        style={heroUrl ? { backgroundImage: `linear-gradient(160deg, rgba(10, 21, 64, 0.82) 0%, rgba(10, 25, 47, 0.65) 50%, rgba(5, 10, 35, 0.80) 100%), url(${heroUrl})` } : {}}
+        style={heroUrl ? { backgroundImage: `linear-gradient(160deg, rgba(13, 43, 29, 0.88) 0%, rgba(26, 71, 49, 0.70) 50%, rgba(7, 25, 15, 0.85) 100%), url(${heroUrl})` } : {}}
       >
         <div className={styles.heroOverlay} />
         <div className={styles.heroContent}>
           <div className={`${styles.heroBadge} animate-fade-in`}>
-            🏆 &nbsp; Affiliated & Recognized School — Gohad, Bhind, MP
+            🏆 &nbsp; Affiliated &amp; Recognized School — Gohad, Bhind, MP
           </div>
           <h1 className={`${styles.heroSchoolName} animate-fade-in-2`}>
             Rukmini Memorial Public High School
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
         <div className={`${styles.aboutImageWrap} animate-slide-right`}>
           <img
-            src="/images/school_activities.jpg"
+            src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=800&auto=format&fit=crop"
             alt="School Activities & Events at Rukmini Memorial Public High School"
             className={styles.aboutImg}
           />
@@ -153,12 +153,12 @@ export default function Home() {
         </div>
         <div className={styles.featuresGrid}>
           {[
-            { image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop", title: "Academic Excellence", desc: "Rigorous curriculum designed to challenge and inspire every student to reach their highest potential." },
-            { image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=600&auto=format&fit=crop", title: "Cultural Programs", desc: "Rich co-curricular programs — dance, music, art, drama — celebrating India's diverse heritage." },
-            { image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=600&auto=format&fit=crop", title: "Sports & Fitness", desc: "State-of-the-art sports facilities encouraging physical health, teamwork, and competitive spirit." },
-            { image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=600&auto=format&fit=crop", title: "Modern Labs", desc: "Fully equipped science and computer labs giving hands-on learning experiences to students." },
-            { image: "https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=600&auto=format&fit=crop", title: "Holistic Development", desc: "We nurture character, confidence, and compassion alongside academic skills." },
-            { image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=600&auto=format&fit=crop", title: "Parent Partnership", desc: "We keep parents closely involved through regular PTMs, digital updates, and open communication." },
+            { image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=600&auto=format&fit=crop", title: "Academic Excellence", desc: "Rigorous curriculum designed to challenge and inspire every student to reach their highest potential." },
+            { image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=600&auto=format&fit=crop", title: "Cultural Programs", desc: "Rich co-curricular programs — dance, music, art, drama — celebrating India's diverse heritage." },
+            { image: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=600&auto=format&fit=crop", title: "Sports & Fitness", desc: "State-of-the-art sports facilities encouraging physical health, teamwork, and competitive spirit." },
+            { image: "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?q=80&w=600&auto=format&fit=crop", title: "Modern Labs", desc: "Fully equipped science and computer labs giving hands-on learning experiences to students." },
+            { image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=600&auto=format&fit=crop", title: "Holistic Development", desc: "We nurture character, confidence, and compassion alongside academic skills." },
+            { image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=600&auto=format&fit=crop", title: "Parent Partnership", desc: "We keep parents closely involved through regular PTMs, digital updates, and open communication." },
           ].map((f) => (
             <div key={f.title} className={`${styles.featureCard} card-hover`}>
               <img src={f.image} alt={f.title} className={styles.featureImage} />
@@ -174,7 +174,7 @@ export default function Home() {
       {/* ===== CTA BANNER ===== */}
       <section 
         className={styles.ctaBanner}
-        style={heroUrl ? { backgroundImage: `linear-gradient(135deg, rgba(10, 21, 64, 0.92) 0%, rgba(10, 25, 47, 0.82) 100%), url(${heroUrl})` } : {}}
+        style={heroUrl ? { backgroundImage: `linear-gradient(135deg, rgba(13, 43, 29, 0.95) 0%, rgba(26, 71, 49, 0.88) 100%), url(${heroUrl})` } : {}}
       >
         <div className={styles.ctaBannerContent}>
           <h2 className={styles.ctaBannerTitle}>Admissions are Now Open!</h2>

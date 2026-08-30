@@ -42,13 +42,13 @@ export default function AdminLogin() {
       height: '100vh',
       alignItems: 'center',
       justifyContent: 'center',
-      background: 'linear-gradient(160deg, #1C0008 0%, #3D0009 50%, #6B0F1A 100%)',
+      background: 'linear-gradient(160deg, #041A0D 0%, #0D2B1D 50%, #1A4731 100%)',
       position: 'relative',
       overflow: 'hidden',
     }}>
       {/* Background decorative circles */}
-      <div style={{ position: 'absolute', top: '-100px', right: '-100px', width: '400px', height: '400px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(201,168,76,0.12), transparent 70%)', pointerEvents: 'none' }} />
-      <div style={{ position: 'absolute', bottom: '-150px', left: '-100px', width: '500px', height: '500px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(107,15,26,0.2), transparent 70%)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', top: '-100px', right: '-100px', width: '400px', height: '400px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(201,168,76,0.15), transparent 70%)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', bottom: '-150px', left: '-100px', width: '500px', height: '500px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(26,71,49,0.25), transparent 70%)', pointerEvents: 'none' }} />
 
       <div style={{
         width: '100%',
