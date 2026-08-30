@@ -1,6 +1,6 @@
 /* ===== ANNOUNCEMENT TICKER ===== */
 .tickerWrapper {
-  background: linear-gradient(135deg, #1C1208, #3D2010);
+  background: linear-gradient(135deg, #041A0D, #0D2B1D);
   color: var(--white);
   padding: 0;
   overflow: hidden;
@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   height: 38px;
-  border-bottom: 1px solid rgba(230,126,34,0.3);
+  border-bottom: 1px solid rgba(201,168,76,0.3);
 }
 
 /* Left label badge */
@@ -19,7 +19,7 @@
   top: 0;
   bottom: 0;
   padding: 0 20px;
-  background: linear-gradient(135deg, var(--primary), #C0392B);
+  background: linear-gradient(135deg, var(--primary), #245E42);
   font-family: var(--font-heading);
   font-size: 0.7rem;
   font-weight: 700;
@@ -38,7 +38,7 @@
   top: 0;
   bottom: 0;
   width: 40px;
-  background: linear-gradient(to right, #1C1208, transparent);
+  background: linear-gradient(to right, #041A0D, transparent);
   z-index: 1;
   pointer-events: none;
 }

@@ -12,7 +12,7 @@
     rgba(13, 43, 29, 0.88) 0%,
     rgba(26, 71, 49, 0.70) 50%,
     rgba(7, 25, 15, 0.85) 100%
-  ), url('/images/hero_school.jpg') center/cover no-repeat;
+  ), url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
   color: var(--white);
   overflow: hidden;
 }
@@ -362,7 +362,7 @@
     135deg,
     rgba(13, 43, 29, 0.95) 0%,
     rgba(26, 71, 49, 0.88) 100%
-  ), url('/images/hero_school.jpg') center/cover no-repeat fixed;
+  ), url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat fixed;
   padding: 100px 6%;
   text-align: center;
   color: var(--white);
