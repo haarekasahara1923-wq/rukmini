@@ -31,7 +31,7 @@ export default async function GalleryPage() {
     <div className={styles.container}>
       <div className={styles.header}>
         <h1 className={styles.title}>School Gallery</h1>
-        <p className={styles.subtitle}>Glimpses of life at Rani Awanti Bai Higher Secondary School</p>
+        <p className={styles.subtitle}>Glimpses of life at Rukmini Memorial Public High School</p>
       </div>
 
       {errorMsg ? (

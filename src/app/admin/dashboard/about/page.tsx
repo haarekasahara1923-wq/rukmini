@@ -178,7 +178,7 @@ export default function AdminAbout() {
           <div style={{ ...cardStyle, background: "#f8f9fa", border: "1px solid #ddd" }}>
             <h2 style={{ marginTop: 0 }}>School General Information</h2>
             <div style={{ marginBottom: "15px" }}>
-              <label style={{ display: "block", marginBottom: "5px", fontWeight: "600" }}>About Rani Awanti Bai Higher Secondary School</label>
+              <label style={{ display: "block", marginBottom: "5px", fontWeight: "600" }}>About Rukmini Memorial Public High School</label>
               <textarea
                 value={aboutSchoolText}
                 onChange={e => setAboutSchoolText(e.target.value)}
