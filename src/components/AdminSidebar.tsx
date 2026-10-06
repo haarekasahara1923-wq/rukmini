@@ -68,7 +68,7 @@ export default function AdminSidebar() {
         </nav>
 
         <a
-          href="https://schoolpro.wapiflow.site"
+          href="https://erp-chi-teal.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.manageSchoolBtn}
